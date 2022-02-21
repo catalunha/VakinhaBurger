@@ -7,14 +7,14 @@ class AppTextFormField extends StatelessWidget {
   final bool obscureText;
   final FormFieldValidator<String>? validator;
   final ValueChanged<String>? onChange;
-  const AppTextFormField(
-      {Key? key,
-      required this.label,
-      this.controller,
-      this.obscureText = false,
-      this.validator,
-      this.onChange})
-      : super(key: key);
+  const AppTextFormField({
+    Key? key,
+    required this.label,
+    this.controller,
+    this.obscureText = false,
+    this.validator,
+    this.onChange,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

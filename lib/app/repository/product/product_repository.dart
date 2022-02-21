@@ -13,7 +13,7 @@ class ProductRepository implements ProductRepositoryAbstract {
       : _restClient = restClient;
   @override
   Future<List<ProductModel>> findAll() async {
-    final result = await _restClient.get('/products');
+    final result = await _restClient.get('/products/');
     if (result.hasError) {
       log(
         'Erro ao buscar produtos ${result.statusCode}',

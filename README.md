@@ -1,5 +1,13 @@
 
+flutter create --platforms android,web --org br.com.innube --project-name login_logout ./login_logout
 
+
+flutter create --platforms android --org br.com.innube --project-name push_notification ./push_notification
+
+
+flutter create --platforms android --org br.com.innube --project-name proja ./proja
+
+flutter create --platforms android,web --org br.com.innube --project-name guiaapi ./guiaapi
 
 # create
 catalunha@pop-os:~/mycloud/darkWeek/introducao_flutter$ flutter create --platforms android --org education.brintec --project-name introducao_flutter ./introducao_flutter

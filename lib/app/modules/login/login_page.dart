@@ -23,6 +23,14 @@ class _LoginPageState extends AppState<LoginPage, LoginController> {
   final _passwordEC = TextEditingController();
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _emailEC.text = 'catalunhamj@gmail.com';
+    _passwordEC.text = '456456';
+  }
+
+  @override
   void dispose() {
     _emailEC.dispose();
     _passwordEC.dispose();
